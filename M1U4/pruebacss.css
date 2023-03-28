@@ -1,0 +1,20 @@
+h2 {
+color: salmon;
+text-decoration: underline;
+
+}
+h1 {
+    color: blueviolet;
+    text-decoration-line: underline;
+    text-align: center;
+}
+#fotoperetti{
+text-align: center;
+}
+.textonormal {
+    color: gray;
+}
+#principal {
+    background-image: url(./Fondo\ cv.jpg);
+    background-repeat: no-repeat;
+}
