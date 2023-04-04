@@ -1,0 +1,25 @@
+h2 {
+color: salmon;
+text-decoration: underline;
+
+}
+h1 {
+    color: blueviolet;
+    text-decoration-line: underline;
+    text-align: center;
+}
+#fotoperetti{
+text-align: center;
+}
+.textonormal {
+    color: gray;
+}
+
+
+#principal{
+    background: linear-gradient(to bottom, #F7FF4C, #4CFFC1)
+}
+
+#fotoperetti{
+    box-shadow: 0 0 10px #000000;
+}
