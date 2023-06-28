@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    const distancia = prompt("Ingrese la distancia");
+  
+  if (distancia >= 0 && distancia <= 1000) {
+    document.write('El medio de transporte recomendado es: Pie');
+    
+  } else if (distancia > 1000 && distancia <= 10000) {
+    document.write('El medio de transporte recomendado es: Bicicleta');
+    console.log("El medio de transporte recomendado es: Bicicleta");
+  } else if (distancia > 10000 && distancia <= 30000) {
+    document.write('El medio de transporte recomendado es: Colectivo');
+    console.log("El medio de transporte recomendado es: Colectivo");
+  } else if (distancia > 30000 && distancia <= 100000) {
+    document.write('El medio de transporte recomendado es: Auto');
+    console.log("El medio de transporte recomendado es: Auto");
+  } else if (distancia > 100000) {
+    document.write('El medio de transporte recomendado es: Avión');
+    console.log("El medio de transporte recomendado es: Avión");
+  } else {
+    console.log("Distancia Inválida");
+  }
+ 
+
+  </script>
+</body>
+</html>
